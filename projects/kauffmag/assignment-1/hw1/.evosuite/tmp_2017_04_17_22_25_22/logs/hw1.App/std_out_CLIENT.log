@@ -1,0 +1,106 @@
+* Starting client
+* Connecting to master process on port 10121
+* Analyzing classpath: 
+  - C:/Users/Gabe K/Documents/Programming/CS362/hw1/target/classes
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\charsets.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\deploy.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\access-bridge-64.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\cldrdata.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\dnsns.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jaccess.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\jfxrt.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\localedata.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\nashorn.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunec.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunjce_provider.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunmscapi.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\sunpkcs11.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\ext\zipfs.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\javaws.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\jce.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfr.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\jfxswt.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\jsse.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\management-agent.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\plugin.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\resources.jar
+  - C:\Program Files\Java\jdk1.8.0_91\jre\lib\rt.jar
+  - C:\Users\Gabe K\Documents\Programming\CS362\hw1\target\test-classes
+  - C:\Users\Gabe K\Documents\Programming\CS362\hw1\target\classes
+  - C:\Users\Gabe K\.m2\repository\junit\junit\4.12\junit-4.12.jar
+  - C:\Users\Gabe K\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+* Finished analyzing classpath
+* Generating tests for class hw1.App
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+* Total number of test goals: 
+  - Line 35
+  - Branch 16
+  - Exception 0
+  - MutationFactory 392
+  - Output 0
+  - Method 3
+  - MethodNoException 3
+  - CBranchFitnessFactory 16
+* Using seed 1492493126345
+* Starting evolution
+* Search finished after 136s and 0 generations, 87 statements, best individual has fitness: 287.78985507246375
+* Writing sequences to pool
+[MASTER] 22:27:48.059 [pool-2-thread-1] WARN  TimeController - Phase SEARCH lasted too long, 41 seconds more than allowed.
+* Minimizing test suite
+[MASTER] 22:28:18.298 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 37%
+* Total number of goals: 35
+* Number of covered goals: 13
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 25%
+* Total number of goals: 16
+* Number of covered goals: 4
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 2
+* Number of covered goals: 2
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 42%
+* Total number of goals: 392
+* Number of covered goals: 164
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 100% (no goals)
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 3
+* Number of covered goals: 3
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 25%
+* Total number of goals: 16
+* Number of covered goals: 4
+* Generated 7 tests with total length 35
+* Resulting test suite's coverage: 58% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 22:28:18.336 [pool-2-thread-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 14s, but only 7s are left
+* Resulting test suite's mutation score: 0%
+* Compiling and checking tests
+[MASTER] 22:28:26.278 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 14s, but only 0s are left
+[MASTER] 22:28:26.279 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 14s, but only 0s are left
+* Writing JUnit test case 'App_ESTest' to C:\Users\Gabe K\Documents\Programming\CS362\hw1\.evosuite\tmp_2017_04_17_22_25_22\tests
+[MASTER] 22:28:26.286 [pool-2-thread-1] WARN  TestSuiteWriter - Using cached result
+[MASTER] 22:28:29.290 [pool-2-thread-1] WARN  TestSuiteWriter - Using cached result
+[MASTER] 22:28:29.291 [pool-2-thread-1] WARN  TestSuiteWriter - Using cached result
+[MASTER] 22:28:32.295 [pool-2-thread-1] WARN  TestSuiteWriter - Using cached result
+[MASTER] 22:28:35.299 [pool-2-thread-1] WARN  TestSuiteWriter - Using cached result
+* Done!
+
